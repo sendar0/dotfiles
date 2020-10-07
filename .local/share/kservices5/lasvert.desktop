@@ -2,11 +2,16 @@
 Type=Service
 Icon=smiley-shape
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin
-MimeType=image/jpeg;
+MimeType=image/bmp;
 Actions=lasvert;
 Encoding=UTF-8
+#Terminal=true
+#TerminalOptions=\s--noclose
+
 
 [Desktop Action lasvert]
 Name=Convert for Laser
 Icon=smiley-shape
 Exec= /home/sander/projects/bash/lasvert.sh %f
+
+
