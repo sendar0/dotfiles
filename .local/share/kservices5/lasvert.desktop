@@ -2,7 +2,7 @@
 Type=Service
 Icon=smiley-shape
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin
-MimeType=image/bmp;
+MimeType=image/bmp;image/jpg;image/jpeg;
 Actions=lasvert;
 Encoding=UTF-8
 #Terminal=true
