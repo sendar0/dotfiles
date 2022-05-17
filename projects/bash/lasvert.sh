@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ $1 == *.jpg ]]
+if [[ $1 == *.jpg|| $1 == *.jpeg ]]
 then
 		tmp=`convert $1 _tmp.bmp`
 		for i in {0..9}

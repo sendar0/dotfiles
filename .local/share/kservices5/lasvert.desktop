@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Service
-Icon=smiley-shape
+Icon=pathshape
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 MimeType=image/bmp;image/jpg;image/jpeg;
 Actions=lasvert;
@@ -11,7 +11,7 @@ Encoding=UTF-8
 
 [Desktop Action lasvert]
 Name=Convert for Laser
-Icon=smiley-shape
+Icon=pathshape
 Exec= /home/sander/projects/bash/lasvert.sh %f
 
 
