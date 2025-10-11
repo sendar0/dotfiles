@@ -141,6 +141,32 @@ button:hover {
 }
 
 
+.modules-center {
+
+  background-color: rgba(43, 48, 59, 0.5);
+
+  border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+
+
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 0 1rem 0 1rem;
+}
+
+
+.modules-left {
+
+  background-color: rgba(43, 48, 59, 0.5);
+
+  border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+
+
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-right: 5px;
+  padding: 0 1rem 0 1rem;
+}
+
 #clock {
   /* background-color: #64727D; */
 
@@ -156,12 +182,12 @@ button:hover {
 
 #battery {
   /* background-color: #ffffff; */
-  color: #000000;
+  /* color: #000000; */
 }
 
 #battery.charging,
 #battery.plugged {
-  color: #ffffff;
+  /* color: #ffffff; */
   /* background-color: #26A65B; */
 }
 
@@ -208,7 +234,7 @@ label:focus {
 
 #cpu {
   /* background-color: #2ecc71; */
-  color: #000000;
+  /* color: #000000; */
 }
 
 #memory {
@@ -233,7 +259,7 @@ label:focus {
 
 #pulseaudio {
   /* background-color: #f1c40f; */
-  color: #000000;
+  /* color: #000000; */
 }
 
 #pulseaudio.muted {
@@ -362,4 +388,20 @@ label:focus {
 
 #privacy-item.audio-out {
   /* background-color: #0069d4; */
+}
+
+menu {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+menu>menuitem {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 6px 12px;
+}
+
+menu>menuitem:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
