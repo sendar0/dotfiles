@@ -1,0 +1,15 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.bar.transparent": true,
+  "theme.bar.buttons.monochrome": true,
+  "theme.bar.background": "#11111b",
+  "theme.bar.buttons.style": "default",
+  "theme.bar.buttons.background": "#242438",
+  "theme.bar.buttons.icon_background": "#242438",
+  "theme.bar.buttons.dashboard.background": "#242438",
+  "theme.bar.buttons.background_hover_opacity": 100,
+  "theme.bar.buttons.network.icon_background": "#cdab8f",
+  "theme.bar.menus.menu.network.background.color": "#11111b"
+}
