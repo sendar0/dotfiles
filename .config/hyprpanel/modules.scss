@@ -38,6 +38,8 @@
 
   >.bar_item_box_visible.style1:first-child {
     border-bottom-left-radius: 1rem;
+    border-top: 0;
+    border-right: 0;
   }
 
   >.bar_item_box_visible.style1:last-child {

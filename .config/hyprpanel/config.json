@@ -11,5 +11,79 @@
   "theme.bar.buttons.dashboard.background": "#242438",
   "theme.bar.buttons.background_hover_opacity": 100,
   "theme.bar.buttons.network.icon_background": "#cdab8f",
-  "theme.bar.menus.menu.network.background.color": "#11111b"
+  "theme.bar.menus.menu.network.background.color": "#11111b",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "chrome",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "chromium",
+  "menus.dashboard.shortcuts.left.shortcut2.command": "spotify",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "walker",
+  "bar.customModules.netstat.networkInterface": "wlp2s0",
+  "theme.bar.buttons.modules.netstat.enableBorder": true,
+  "theme.font.size": "1rem",
+  "theme.font.weight": 400,
+  "menus.transition": "crossfade",
+  "theme.font.name": "Roboto",
+  "theme.font.label": "Roboto",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "netstat",
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "menus.dashboard.directories.left.directory1.label": "󰉍  Downloads",
+  "menus.dashboard.directories.left.directory2.label": "󰉏  Videos",
+  "menus.dashboard.directories.left.directory3.label": "󰚝  Projects",
+  "menus.dashboard.directories.right.directory1.label": "󱧶  Documents",
+  "menus.dashboard.directories.right.directory2.label": "󰉏  Pictures",
+  "menus.dashboard.directories.right.directory3.label": "󱂵  Home",
+  "menus.clock.weather.unit": "metric",
+  "menus.clock.time.military": true,
+  "menus.clock.time.hideSeconds": true,
+  "bar.clock.format": "%a %b %d  %H:%M %p",
+  "theme.bar.buttons.clock.enableBorder": false
 }
