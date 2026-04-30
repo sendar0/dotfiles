@@ -208,6 +208,9 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias dotfiles='/usr/bin/git --git-dir=/home/sander/.cfg/ --work-tree=/home/sander'
+alias tp='cd ~/projects/2025/claude/'
+alias tps='~/projects/2025/claude/startdev.sh'
+alias tpc='~/projects/2025/claude/startcode.sh'
 
 # bun completions
 [ -s "/home/sander/.bun/_bun" ] && source "/home/sander/.bun/_bun"
