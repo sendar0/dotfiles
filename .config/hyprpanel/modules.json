@@ -1,7 +1,7 @@
 {
     "custom/claude": {
-        "execute": "/home/sander/projects/2026/claudeusage-hyprpanel/claude-usage.py",
-        "executeOnAction": "/home/sander/projects/2026/claudeusage-hyprpanel/claude-usage.py",
+        "execute": "/home/sander/projects/bash/claudeusage-hyprpanel/claude-usage.py",
+        "executeOnAction": "/home/sander/projects/bash/claudeusage-hyprpanel/claude-usage.py",
         "interval": 60000,
         "icon": {
             "normal": "✳",

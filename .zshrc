@@ -218,3 +218,10 @@ alias tpc='~/projects/2025/claude/startcode.sh'
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# kimi-code
+export PATH="/home/sander/.kimi-code/bin:$PATH"
+
+# Android sdk
+export ANDROID_HOME="$HOME/Android/Sdk"
+export PATH="$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator"
