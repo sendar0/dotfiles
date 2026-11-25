@@ -1,0 +1,8 @@
+[Unit]
+Description=Back up Claude Code transcripts to the claude-history archive
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/sander/projects/2026/claudehistory
+ExecStart=/usr/bin/python3 /home/sander/projects/2026/claudehistory/claude_history.py --sync-only
+Nice=10
